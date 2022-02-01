@@ -1,5 +1,5 @@
 SELECT *
-FROM PortfolioProject..NashvilleHousing
+FROM PortfolioProject..NashvilleHousing 
 
 --cleaning sale date
 SELECT SaleDate, CONVERT(Date, SaleDate)
