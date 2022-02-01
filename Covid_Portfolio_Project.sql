@@ -28,7 +28,7 @@ ORDER BY 1,2
 SELECT location, MAX(total_cases) AS highest_infection_count, population, MAX((total_cases/population))*100 AS percent_population_infected
 FROM PortfolioProject..Covid_Deaths
 WHERE continent IS NOT NULL
-GROUP BY location, population
+GROUP BY location, population 
 ORDER BY percent_population_infected DESC
 
 
